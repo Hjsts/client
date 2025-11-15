@@ -44,7 +44,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "alias": "псевдоним",
+  "alias": "Псевдоним",
   "@alias": {
     "type": "String",
     "placeholders": {}
@@ -98,7 +98,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "askSSSSSign": "Для подписи ключа другого пользователя, пожалуйста, введите вашу парольную фразу или ключ восстановления.",
+  "askSSSSSign": "Для подписи другого пользователя, пожалуйста, введите вашу парольную фразу или ключ восстановления.",
   "@askSSSSSign": {
     "type": "String",
     "placeholders": {}
@@ -218,7 +218,7 @@
       }
     }
   },
-  "changedTheChatNameTo": "{username} изменил(а) имя чата на: '{chatname}'",
+  "changedTheChatNameTo": "{username} изменил(а) название чата на: '{chatname}'",
   "@changedTheChatNameTo": {
     "type": "String",
     "placeholders": {
@@ -314,7 +314,7 @@
       }
     }
   },
-  "changedTheProfileAvatar": "{username} изменил(а) аватар",
+  "changedTheProfileAvatar": "{username} изменил(а) их аватар",
   "@changedTheProfileAvatar": {
     "type": "String",
     "placeholders": {
@@ -376,12 +376,12 @@
     "type": "String",
     "placeholders": {}
   },
-  "chatBackup": "Резервное копирование чата",
+  "chatBackup": "Создана резервная копия чата",
   "@chatBackup": {
     "type": "String",
     "placeholders": {}
   },
-  "chatBackupDescription": "Резервная старых сообщений защищена ключом восстановления. Пожалуйста, не потеряйте его.",
+  "chatBackupDescription": "Старые сообщения защищены ключом восстановления. Пожалуйста, убедитесь, что не потеряйте его.",
   "@chatBackupDescription": {
     "type": "String",
     "placeholders": {}
@@ -463,7 +463,7 @@
     "type": "String",
     "description": "Usage hint for the command /plain"
   },
-  "commandHint_react": "Отправить ответ как реакцию",
+  "commandHint_react": "Отправить реакцию в качестве ответа",
   "@commandHint_react": {
     "type": "String",
     "description": "Usage hint for the command /react"
@@ -492,12 +492,12 @@
     },
     "description": "State that {command} is not a valid /command."
   },
-  "compareEmojiMatch": "Сравните эмодзи",
+  "compareEmojiMatch": "Пожалуйста, сравните эмодзи",
   "@compareEmojiMatch": {
     "type": "String",
     "placeholders": {}
   },
-  "compareNumbersMatch": "Сравните числа",
+  "compareNumbersMatch": "Пожалуйста, сравните числа",
   "@compareNumbersMatch": {
     "type": "String",
     "placeholders": {}
@@ -532,7 +532,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "contentHasBeenReported": "О контенте было сообщено администраторам сервера",
+  "contentHasBeenReported": "Данный контент был передан администраторам сервера",
   "@contentHasBeenReported": {
     "type": "String",
     "placeholders": {}
@@ -638,7 +638,7 @@
       }
     }
   },
-  "deactivateAccountWarning": "Это деактивирует вашу учётную запись пользователя. Данное действие не может быть отменено! Вы уверены?",
+  "deactivateAccountWarning": "Это деактивирует вашу учётную запись. Данное действие не может быть отменено! Вы уверены?",
   "@deactivateAccountWarning": {
     "type": "String",
     "placeholders": {}
@@ -668,7 +668,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "deviceId": "Идентификатор устройства",
+  "deviceId": "ID устройства",
   "@deviceId": {
     "type": "String",
     "placeholders": {}
@@ -688,7 +688,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "downloadFile": "Скачать файл",
+  "downloadFile": "Установить файл",
   "@downloadFile": {
     "type": "String",
     "placeholders": {}
@@ -708,7 +708,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "editRoomAliases": "Редактировать псевдонимы комнаты",
+  "editRoomAliases": "Изменить название комнаты",
   "@editRoomAliases": {
     "type": "String",
     "placeholders": {}
@@ -816,7 +816,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "extremeOffensive": "Крайне оскорбительный",
+  "extremeOffensive": "Крайне оскорбительно",
   "@extremeOffensive": {
     "type": "String",
     "placeholders": {}
@@ -851,7 +851,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "goToTheNewRoom": "В новую комнату",
+  "goToTheNewRoom": "Перейти в новую комнату",
   "@goToTheNewRoom": {
     "type": "String",
     "placeholders": {}
@@ -988,7 +988,7 @@
       }
     }
   },
-  "invitedUsersOnly": "Только приглашённым пользователям",
+  "invitedUsersOnly": "Только приглашённые пользователи",
   "@invitedUsersOnly": {
     "type": "String",
     "placeholders": {}
@@ -1106,12 +1106,12 @@
     "type": "String",
     "placeholders": {}
   },
-  "locationDisabledNotice": "Службы определения местоположения отключены. Включите их, чтобы иметь возможность обмениваться информацией о своем местоположении.",
+  "locationDisabledNotice": "Геолокация отключена. Включите её, чтобы иметь возможность обмениваться информацией о своем местоположении.",
   "@locationDisabledNotice": {
     "type": "String",
     "placeholders": {}
   },
-  "locationPermissionDeniedNotice": "Разрешение на определение местоположения отклонено. Пожалуйста, предоставьте это разрешение, чтобы иметь возможность делиться своим местоположением.",
+  "locationPermissionDeniedNotice": "Разрешение геолокации отклонено. Пожалуйста, предоставьте это разрешение, чтобы иметь возможность делиться своим местоположением.",
   "@locationPermissionDeniedNotice": {
     "type": "String",
     "placeholders": {}
@@ -1200,7 +1200,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "noEncryptionForPublicRooms": "Вы можете активировать шифрование только тогда, когда комната перестает быть общедоступной.",
+  "noEncryptionForPublicRooms": "Вы можете активировать шифрование только тогда, когда комната необщедоступна.",
   "@noEncryptionForPublicRooms": {
     "type": "String",
     "placeholders": {}
@@ -1266,7 +1266,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "offensive": "Оскорбительный",
+  "offensive": "Оскорбительно",
   "@offensive": {
     "type": "String",
     "placeholders": {}
@@ -1291,7 +1291,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "oopsPushError": "Ой! К сожалению, при настройке push-уведомлений произошла ошибка.",
+  "oopsPushError": "Упс! К сожалению, при настройке push-уведомлений произошла ошибка.",
   "@oopsPushError": {
     "type": "String",
     "placeholders": {}
@@ -1306,7 +1306,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "openCamera": "Открыть камеру",
+  "openCamera": "Включить камеру",
   "@openCamera": {
     "type": "String",
     "placeholders": {}
@@ -1336,7 +1336,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "passwordForgotten": "Забыли пароль",
+  "passwordForgotten": "Пароль был забыт",
   "@passwordForgotten": {
     "type": "String",
     "placeholders": {}
@@ -1385,7 +1385,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "pleaseClickOnLink": "Пожалуйста, нажмите на ссылку в электронной почте, для того чтобы продолжить.",
+  "pleaseClickOnLink": "Пожалуйста, нажмите на ссылку в письме, пришедшим на электронную почту, чтобы продолжить.",
   "@pleaseClickOnLink": {
     "type": "String",
     "placeholders": {}
@@ -1459,7 +1459,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "reject": "Отказать",
+  "reject": "Отказаться",
   "@reject": {
     "type": "String",
     "placeholders": {}
@@ -1473,7 +1473,7 @@
       }
     }
   },
-  "rejoin": "Зайти повторно",
+  "rejoin": "Перезайти",
   "@rejoin": {
     "type": "String",
     "placeholders": {}
@@ -1679,7 +1679,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "setInvitationLink": "Установить ссылку для приглашения",
+  "setInvitationLink": "Установить ссылку-приглашение",
   "@setInvitationLink": {
     "type": "String",
     "placeholders": {}
@@ -1762,7 +1762,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "statusExampleMessage": "Как у вас сегодня дела?",
+  "statusExampleMessage": "Как ваши дела сегодня?",
   "@statusExampleMessage": {
     "type": "String",
     "placeholders": {}
@@ -1803,7 +1803,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "toggleMuted": "Переключить без звука",
+  "toggleMuted": "Переключить беззвучное",
   "@toggleMuted": {
     "type": "String",
     "placeholders": {}
@@ -1869,7 +1869,7 @@
       }
     }
   },
-  "unmuteChat": "Включить уведомления",
+  "unmuteChat": "Включить уведомления чата",
   "@unmuteChat": {
     "type": "String",
     "placeholders": {}
@@ -1962,7 +1962,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "verifySuccess": "Вы успешно проверены!",
+  "verifySuccess": "Вы успешно прошли проверку!",
   "@verifySuccess": {
     "type": "String",
     "placeholders": {}
@@ -1997,7 +1997,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "waitingPartnerAcceptRequest": "Жду, когда партнер примет запроc…",
+  "waitingPartnerAcceptRequest": "Ждём, пока партнер примет запроc…",
   "@waitingPartnerAcceptRequest": {
     "type": "String",
     "placeholders": {}
@@ -2022,7 +2022,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "weSentYouAnEmail": "Мы отправили вам электронное письмо",
+  "weSentYouAnEmail": "Мы отправили вам письмо на электронную почту",
   "@weSentYouAnEmail": {
     "type": "String",
     "placeholders": {}
