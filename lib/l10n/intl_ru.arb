@@ -98,12 +98,12 @@
     "type": "String",
     "placeholders": {}
   },
-  "askSSSSSign": "Для подписи другого пользователя, пожалуйста, введите вашу парольную фразу или ключ восстановления.",
+  "askSSSSSign": "Чтобы подтвердить личность другого пользователя, введите пароль защищённого хранилища или ключ восстановления.",
   "@askSSSSSign": {
     "type": "String",
     "placeholders": {}
   },
-  "askVerificationRequest": "Принять этот запрос подтверждения от {username}?",
+  "askVerificationRequest": "Принять запрос на подтверждение личности от {username}?",
   "@askVerificationRequest": {
     "type": "String",
     "placeholders": {
@@ -323,7 +323,7 @@
       }
     }
   },
-  "changedTheRoomAliases": "{username} изменил(а) псевдонимы комнаты",
+  "changedTheRoomAliases": "{username} изменил(а) псевдоним комнаты",
   "@changedTheRoomAliases": {
     "type": "String",
     "placeholders": {
@@ -512,7 +512,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "connect": "Присоединиться",
+  "connect": "Подключиться",
   "@connect": {
     "type": "String",
     "placeholders": {}
@@ -683,7 +683,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "displaynameHasBeenChanged": "Отображаемое имя было изменено",
+  "displaynameHasBeenChanged": "Отображаемое имя изменено",
   "@displaynameHasBeenChanged": {
     "type": "String",
     "placeholders": {}
@@ -988,7 +988,7 @@
       }
     }
   },
-  "invitedUsersOnly": "Только приглашённым пользователям",
+  "invitedUsersOnly": "Только приглашённые пользователи",
   "@invitedUsersOnly": {
     "type": "String",
     "placeholders": {}
@@ -1058,7 +1058,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "lastActiveAgo": "Последнее посещение: {localizedTimeShort}",
+  "lastActiveAgo": "Последняя активность: {localizedTimeShort}",
   "@lastActiveAgo": {
     "type": "String",
     "placeholders": {
@@ -1170,7 +1170,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Новое сообщение во FluffyChat",
+  "newMessageInFluffyChat": "💬 Новое сообщение в FluffyChat",
   "@newMessageInFluffyChat": {
     "type": "String",
     "placeholders": {}
@@ -1205,7 +1205,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Похоже, у вас нет служб Google на вашем телефоне. Это хорошее решение для вашей конфиденциальности! Для получения push-уведомлений во FluffyChat мы рекомендуем использовать ntfy. С ntfy или другим провайдером единых уведомлений вы можете получать push-уведомления безопасным способом передачи данных. Скачать ntfy можно из F-Droid или из Play Маркета.",
+  "noGoogleServicesWarning": "Похоже, Firebase Cloud Messaging недоступен на вашем устройстве. Чтобы продолжать получать push-уведомления, мы рекомендуем установить ntfy. С помощью ntfy или другого провайдера Unified Push вы сможете получать push-уведомления безопасным для данных способом. Вы можете скачать ntfy из PlayStore или F-Droid.",
   "@noGoogleServicesWarning": {
     "type": "String",
     "placeholders": {}
@@ -1301,7 +1301,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "openAppToReadMessages": "Откройте приложение для чтения сообщений",
+  "openAppToReadMessages": "Откройте приложение, чтобы прочитать сообщения",
   "@openAppToReadMessages": {
     "type": "String",
     "placeholders": {}
@@ -1385,7 +1385,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "pleaseClickOnLink": "Пожалуйста, нажмите на ссылку в электронной почте, для того чтобы продолжить.",
+  "pleaseClickOnLink": "Пожалуйста, перейдите по ссылке в письме, чтобы продолжить.",
   "@pleaseClickOnLink": {
     "type": "String",
     "placeholders": {}
@@ -1400,7 +1400,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "pleaseEnterYourPin": "Пожалуйста, введите свой пин-код",
+  "pleaseEnterYourPin": "Пожалуйста, введите пин-код",
   "@pleaseEnterYourPin": {
     "type": "String",
     "placeholders": {}
@@ -1679,7 +1679,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "setInvitationLink": "Установить ссылку для приглашения",
+  "setInvitationLink": "Установить ссылку приглашения",
   "@setInvitationLink": {
     "type": "String",
     "placeholders": {}
@@ -1704,7 +1704,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "sharedTheLocation": "{username} поделился(ась) местоположением",
+  "sharedTheLocation": "{username} поделился местоположением",
   "@sharedTheLocation": {
     "type": "String",
     "placeholders": {
@@ -1723,7 +1723,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "singlesignon": "Единая точка входа",
+  "singlesignon": "Единый вход",
   "@singlesignon": {
     "type": "String",
     "placeholders": {}
@@ -1762,7 +1762,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "statusExampleMessage": "Как у вас сегодня дела?",
+  "statusExampleMessage": "Как ваши дела сегодня?",
   "@statusExampleMessage": {
     "type": "String",
     "placeholders": {}
@@ -2002,7 +2002,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "waitingPartnerEmoji": "Ждем, пока партнер примет эмодзи…",
+  "waitingPartnerEmoji": "Ждём, пока партнер примет эмодзи…",
   "@waitingPartnerEmoji": {
     "type": "String",
     "placeholders": {}
