@@ -2022,7 +2022,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "weSentYouAnEmail": "Мы отправили вам электронное письмо",
+  "weSentYouAnEmail": "Мы отправили вам письмо на электронную почту",
   "@weSentYouAnEmail": {
     "type": "String",
     "placeholders": {}
