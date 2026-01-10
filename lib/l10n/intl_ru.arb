@@ -1155,7 +1155,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "muteChat": "Отключить уведомления",
+  "muteChat": "Заглушить чат",
   "@muteChat": {
     "type": "String",
     "placeholders": {}
@@ -2229,13 +2229,13 @@
   "@widgetEtherpad": {},
   "widgetCustom": "Пользовательский",
   "@widgetCustom": {},
-  "widgetJitsi": "Совещание Jitsi",
+  "widgetJitsi": "Jitsi Meet",
   "@widgetJitsi": {},
-  "widgetName": "Имя",
+  "widgetName": "Название",
   "@widgetName": {},
   "widgetUrlError": "Этот URL не действителен.",
   "@widgetUrlError": {},
-  "widgetNameError": "Пожалуйста, укажите отображаемое имя.",
+  "widgetNameError": "Пожалуйста, укажите название.",
   "@widgetNameError": {},
   "errorAddingWidget": "Ошибка при добавлении виджета.",
   "@errorAddingWidget": {},
@@ -2353,7 +2353,7 @@
   "@dehydrateTor": {},
   "indexedDbErrorLong": "К сожалению, хранилище сообщений по умолчанию не включено в приватном режиме.\nПожалуйста, перейдите в\n- about:config\n- установите для dom.indexedDB.privateBrowsing.enabled значение true\nВ противном случае запуск FluffyChat будет невозможен.",
   "@indexedDbErrorLong": {},
-  "custom": "Пользовательское",
+  "custom": "Пользовательский",
   "@custom": {},
   "hydrate": "Восстановить из файла резервной копии",
   "@hydrate": {},
@@ -2379,11 +2379,11 @@
   "@callingAccountDetails": {},
   "newSpace": "Новое пространство",
   "@newSpace": {},
-  "appearOnTop": "Появляться сверху",
+  "appearOnTop": "Отображаться поверх других приложений",
   "@appearOnTop": {},
   "commandHint_markasdm": "Пометить как комнату личных сообщений",
   "@commandHint_markasdm": {},
-  "appearOnTopDetails": "Позволяет приложению отображаться сверху (не требуется, если у вас уже настроен Fluffychat как аккаунт для звонков)",
+  "appearOnTopDetails": "Разрешает приложению отображаться поверх других приложений (не требуется, если FluffyChat уже настроен как аккаунт для звонков)",
   "@appearOnTopDetails": {},
   "foregroundServiceRunning": "Это уведомление появляется, когда запущена основная служба.",
   "@foregroundServiceRunning": {},
@@ -2431,13 +2431,13 @@
       }
     }
   },
-  "commandHint_cuddle": "Отправить улыбку",
+  "commandHint_cuddle": "Отправить объятия",
   "@commandHint_cuddle": {},
   "readUpToHere": "Непрочитанное",
   "@readUpToHere": {},
-  "commandHint_hug": "Отправить обнимашки",
+  "commandHint_hug": "Отправить объятие",
   "@commandHint_hug": {},
-  "cuddleContent": "{senderName} улыбнулся вам",
+  "cuddleContent": "{senderName} обнимает вас",
   "@cuddleContent": {
     "type": "String",
     "placeholders": {
@@ -2446,7 +2446,7 @@
       }
     }
   },
-  "hugContent": "{senderName} обнял(а) Вас",
+  "hugContent": "{senderName} обнял(а) вас",
   "@hugContent": {
     "type": "String",
     "placeholders": {
@@ -2743,9 +2743,9 @@
       }
     }
   },
-  "subspace": "Субпространство",
+  "subspace": "Подпространство",
   "@subspace": {},
-  "addChatOrSubSpace": "Добавить чат или субпространство",
+  "addChatOrSubSpace": "Добавить чат или подпространство",
   "@addChatOrSubSpace": {},
   "youInvitedToBy": "📩 Вы были приглашены по ссылке в:\n{alias}",
   "@youInvitedToBy": {
@@ -3132,7 +3132,7 @@
   "@invalidUrl": {},
   "addLink": "Добавить ссылку",
   "@addLink": {},
-  "italicText": "Italic",
+  "italicText": "Курсив",
   "@italicText": {},
   "unableToJoinChat": "Невозможно присоединиться к чату. Возможно, другая сторона уже закончила разговор.",
   "@unableToJoinChat": {},
@@ -3157,7 +3157,7 @@
   "@manageAccount": {},
   "contactServerAdmin": "Связаться с администратором сервера",
   "@contactServerAdmin": {},
-  "contactServerSecurity": "Связаться со службой безопасности сервера",
+  "contactServerSecurity": "Сообщить о проблемах с безопасностью",
   "@contactServerSecurity": {},
   "supportPage": "Поддержка",
   "@supportPage": {},
@@ -3278,7 +3278,7 @@
   "ignoreUser": "Игнорировать пользователя",
   "normalUser": "Обычный пользователь",
   "commandHint_roomupgrade": "Обновить эту комнату до указанной версии",
-  "checkList": "Список проверок",
+  "checkList": "Чек-лист",
   "countInvited": "{count} приглашённых",
   "notificationRuleInviteForMeDescription": "Уведомляет пользователя, когда его приглашают в комнату.",
   "notificationRuleMemberEvent": "Событие участника",
