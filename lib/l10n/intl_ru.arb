@@ -1155,7 +1155,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "muteChat": "Заглушить чат",
+  "muteChat": "Отключить уведомления",
   "@muteChat": {
     "type": "String",
     "placeholders": {}
